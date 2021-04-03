@@ -94,9 +94,9 @@ button {
 
 /* New Task */
 .main__input {
-  display: block;
-  margin: 0 0 20px;
-  width: 318px;
+  display: inline-block;
+  margin: 20px 0;
+  width: 307px;
 }
 
 .main__btn:hover {
@@ -155,7 +155,7 @@ button {
 
 .main__item-edit-mode .main__item-input {
   display: inline-block;
-  width: 224px;
+  width: 207px;
 }
 
 .main__item-edit-mode .main__item-task {
