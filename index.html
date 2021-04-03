@@ -7,43 +7,43 @@
 </head>
 <body>
   <header class="header">
-    <img src="./eisenhower-matrix.jpg" alt="Eisenhower matrix">
-    <a class="header__more-details" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+    <img class="header__image" src="./eisenhower-matrix.jpg" alt="Eisenhower matrix">
+    <a class="header__link-more-details" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </header>
   <main class="main">
-    <section class="main__add">
-      <h3 class="main__add-title">Add Item</h3>
-      <input class="main__add-input" id="new-task" type="text">
-      <button class="main__add-btn">Add</button>
+    <section>
+      <h3 class="main__title">Add Item</h3>
+      <input class="main__input" id="new-task" type="text">
+      <button class="main__btn">Add</button>
     </section>
-    <section class="main__todo">
-      <h3 class="main__todo-title">Todo</h3>
-      <ul class="main__todo-list" id="incompleteTasks">
-        <li class="main__todo-item">
-          <input class="main__todo-item-checkbox" type="checkbox">
-          <label class="main__todo-item-task">Pay Bills</label>
-          <input class="main__todo-item-input" type="text">
-          <button class="main__todo-item-btn main__todo-item-btn-edit">Edit</button>
-          <button class="main__todo-item-btn main__todo-item-btn-delete"><img src="./remove.svg" alt="delete"></button>
+    <section>
+      <h3 class="main__title">Todo</h3>
+      <ul class="main__list" id="incompleteTasks">
+        <li class="main__item">
+          <input class="main__item-checkbox" type="checkbox">
+          <label class="main__item-task">Pay Bills</label>
+          <input class="main__item-input" type="text">
+          <button class="main__item-btn main__item-btn-edit">Edit</button>
+          <button class="main__item-btn main__item-btn-delete"><img class="main__item-btn-delete-image" src="./remove.svg" alt="delete"></button>
         </li>
-        <li class="main__todo-item main__todo-item-edit-mode">
-          <input class="main__todo-item-checkbox" type="checkbox">
-          <label class="main__todo-item-task">Go Shopping</label>
-          <input class="main__todo-item-input" type="text" value="Go Shopping">
-          <button class="main__todo-item-btn main__todo-item-btn-edit">Save</button>
-          <button class="main__todo-item-btn main__todo-item-btn-delete"><img src="./remove.svg" alt="delete"></button>
+        <li class="main__item main__item-edit-mode">
+          <input class="main__item-checkbox" type="checkbox">
+          <label class="main__item-task">Go Shopping</label>
+          <input class="main__item-input" type="text" value="Go Shopping">
+          <button class="main__item-btn main__item-btn-edit">Save</button>
+          <button class="main__item-btn main__item-btn-delete"><img class="main__item-btn-delete-image" src="./remove.svg" alt="delete"></button>
         </li>
       </ul>
     </section>
-    <section class="main__completed">
-      <h3 class="main__completed-title">Completed</h3>
-      <ul class="main__completed-list" id="completed-tasks">
-        <li>
-          <input class="main__completed-item-checkbox" type="checkbox" checked>
-          <label class="main__completed-item-task">See the Doctor</label>
-          <input class="main__completed-item-input" type="text">
-          <button class="main__completed-item-btn main__completed-item-btn-edit">Edit</button>
-          <button class="main__completed-item-btn main__completed-item-btn-delete"><img src="./remove.svg" alt="delete"></button>
+    <section>
+      <h3 class="main__title">Completed</h3>
+      <ul class="main__list" id="completed-tasks">
+        <li class="main__item">
+          <input class="main__item-checkbox" type="checkbox" checked>
+          <label class="main__item-task main__item-task-completed">See the Doctor</label>
+          <input class="main__item-input main__item-input-completed" type="text">
+          <button class="main__item-btn main__item-btn-edit">Edit</button>
+          <button class="main__item-btn main__item-btn-delete"><img class="main__item-btn-delete-image" src="./remove.svg" alt="delete"></button>
         </li>
       </ul>
     </section>
